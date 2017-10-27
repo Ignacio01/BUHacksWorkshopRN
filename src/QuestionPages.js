@@ -60,8 +60,8 @@ class QuestionPages extends Component {
             {questions[this.state.counter]}
           </Text>
           <Image
-            style={{ width: 300, height: 300 }}
-            resizeMode='contain'
+            style={styles.imageStyle}
+            resizeMode= 'contain'
             source={{ uri: images[this.state.counter] }}
           />
         </View>
@@ -98,8 +98,6 @@ class QuestionPages extends Component {
   }
 
   navigateToResult() {
-    console.log('------------------')
-    console.log(this.props)
     this.props.navigation.navigate('Result',
     {
       correctAnswers: correctAnswers,
@@ -112,10 +110,7 @@ class QuestionPages extends Component {
 
 const styles = StyleSheet.create({
   containerFlex: {
-    flex: 10,
-    marginTop: 20,
-    borderWidth: 2,
-    borderColor: "red"
+    flex: 1,
   },
   questionFlex: {
     flex: 8,
@@ -123,7 +118,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 2,
-    borderColor: "green"
+    borderColor: '#dddddd'
+  },
+  imageStyle: {
+    width: 300,
+    height: 300,
   },
   buttonsFlex: {
     flex: 2,
@@ -131,7 +130,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-around',
     borderWidth: 2,
-    borderColor: "blue"
+    borderColor: '#dddddd'
   },
   questionText: {
     textAlign: 'center',

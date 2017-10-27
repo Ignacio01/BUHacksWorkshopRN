@@ -37,8 +37,6 @@ class ResultPage extends Component {
 
   answerAlgorithm(){
     //Creating a var counting the number of good answers
-    console.log('------------------')
-    console.log(this.props)
     var goodAnswers = 0
     //Iterating through every answer of the answer array
     for (var i = 0; i < this.props.navigation.state.params.answers.length; i++){
@@ -57,21 +55,20 @@ class ResultPage extends Component {
 const styles = StyleSheet.create({
   containerFlex: {
     flex: 10,
-    marginTop: 20,
     borderWidth: 2,
-    borderColor: "red"
+    borderColor: "#dddddd"
   },
   titleView: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 2,
-    borderColor: 'blue'
+    borderColor: '#dddddd'
   },
   answerContainer: {
     flex: 9,
     borderWidth: 2,
-    borderColor: 'green',
+    borderColor: '#dddddd',
     alignItems: 'center',
     justifyContent: 'center'
   },
@@ -80,7 +77,7 @@ const styles = StyleSheet.create({
   },
   answerText: {
     fontSize: 20,
-    color: 'green',
+    color: '#000000',
     textAlign: 'center'
   }
 });

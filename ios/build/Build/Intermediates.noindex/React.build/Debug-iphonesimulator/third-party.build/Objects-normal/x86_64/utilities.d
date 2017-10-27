@@ -1,0 +1,14 @@
+dependencies: \
+  /Users/vardaan/Desktop/Projects/Personal/ReactNative/BUHacksWorkshopRN/node_modules/react-native/third-party/glog-0.3.4/src/utilities.cc \
+  /Users/vardaan/Desktop/Projects/Personal/ReactNative/BUHacksWorkshopRN/node_modules/react-native/React/../third-party/glog-0.3.4/src/utilities.h \
+  /Users/vardaan/Desktop/Projects/Personal/ReactNative/BUHacksWorkshopRN/node_modules/react-native/React/../third-party/glog-0.3.4/src/base/mutex.h \
+  /Users/vardaan/Desktop/Projects/Personal/ReactNative/BUHacksWorkshopRN/node_modules/react-native/third-party/glog-0.3.4/src/config.h \
+  /Users/vardaan/Desktop/Projects/Personal/ReactNative/BUHacksWorkshopRN/node_modules/react-native/React/../third-party/glog-0.3.4/src/config.h \
+  /Users/vardaan/Desktop/Projects/Personal/ReactNative/BUHacksWorkshopRN/node_modules/react-native/React/../third-party/glog-0.3.4/src/glog/logging.h \
+  /Users/vardaan/Desktop/Projects/Personal/ReactNative/BUHacksWorkshopRN/node_modules/react-native/React/../third-party/glog-0.3.4/src/glog/log_severity.h \
+  /Users/vardaan/Desktop/Projects/Personal/ReactNative/BUHacksWorkshopRN/node_modules/react-native/React/../third-party/glog-0.3.4/src/glog/vlog_is_on.h \
+  /Users/vardaan/Desktop/Projects/Personal/ReactNative/BUHacksWorkshopRN/node_modules/react-native/React/../third-party/glog-0.3.4/src/base/googleinit.h \
+  /Users/vardaan/Desktop/Projects/Personal/ReactNative/BUHacksWorkshopRN/node_modules/react-native/React/../third-party/glog-0.3.4/src/stacktrace.h \
+  /Users/vardaan/Desktop/Projects/Personal/ReactNative/BUHacksWorkshopRN/node_modules/react-native/React/../third-party/glog-0.3.4/src/symbolize.h \
+  /Users/vardaan/Desktop/Projects/Personal/ReactNative/BUHacksWorkshopRN/node_modules/react-native/React/../third-party/glog-0.3.4/src/base/commandlineflags.h \
+  /Users/vardaan/Desktop/Projects/Personal/ReactNative/BUHacksWorkshopRN/node_modules/react-native/React/../third-party/glog-0.3.4/src/stacktrace_x86_64-inl.h
