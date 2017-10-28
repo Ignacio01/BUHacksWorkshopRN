@@ -3,17 +3,9 @@ import { AppRegistry, StyleSheet, Text, View, Navigator, Image, Button } from 'r
 
 class QuestionPages extends Component {
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      counter: 0,
-    };
-  }
-
   render() {
     return (
-      <View style={{flex:1, alignItems:'center', justifyContent:'center'}}>
-        <Text> Questions Page </Text>
+      <View>
       </View>
     )
   }
